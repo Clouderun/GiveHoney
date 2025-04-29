@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+
+body{
+    background-color: rgb(192, 97, 3);
+    cursor: url(./cursor/honeypot22resize.png), default;
+}
+
+.nav{
+    background-color: #ffbb00;
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    text-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+}
+
+a{
+    font-family: "Cherry Bomb One", system-ui;
+    font-size: larger;
+    color: rgb(0, 0, 0, 70%);
+    margin-top: 10px;
+    transition: ease-in-out 1s;
+    text-decoration: none;
+}
+
+a:hover{
+    scale: 1.1;
+}
+
+button{
+    margin-top: 120px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #f0db9e;
+    font-family: "Cherry Bomb One", system-ui;
+    transition: ease 0.3s;
+}
+
+button:hover {
+    font-size: larger;
+    color: #c57d00;
+    cursor: pointer;
+}
+
+.content{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bear{
+    cursor: url(./cursor/honeygiver2resize.png), auto;
+}
+
+
+.content:hover{
+    cursor: url("cursor/honeygiver.png"), pointer;
+}
+
+.bearhoney{
+    margin: 0 auto;
+    height: 20px;
+    width: 400px;
+    background-color: #f0db9e;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#barraprog{
+    width: 0%;
+    height: 100%;
+    background-color: #ffbb00;
+    transition: ease 0.3s;
+}
